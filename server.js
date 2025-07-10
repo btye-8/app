@@ -25,14 +25,14 @@ if (!fs.existsSync(DATA_DIR)) {
 
 // Initialize users
 const USERS = {
-    gini: {
+    Gauri: {
         username: 'Gauri',
         password: hashPassword('18072007'),
         isOnline: false,
         lastSeen: null,
         socketId: null
     },
-    dev: {
+    Btye: {
         username: 'Btye',
         password: hashPassword('18042004'),
         isOnline: false,
